@@ -3815,9 +3815,10 @@
   },
   "twilightforest:progression_end": {
     "criteria": {
-      "previous_progression": "2025-03-16 20:14:45 +0000"
+      "previous_progression": "2025-03-16 20:14:45 +0000",
+      "plateau": "2025-03-16 20:18:48 +0000"
     },
-    "done": false
+    "done": true
   },
   "minecraft:recipes/decorations/enchanting_table": {
     "criteria": {

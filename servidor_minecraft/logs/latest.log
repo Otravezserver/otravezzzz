@@ -215,3 +215,9 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [16Mar2025 20:14:24.115] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [SoySaave: Set own game mode to Creative Mode]
 [16Mar2025 20:14:36.202] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [SoySaave: Set own game mode to Survival Mode]
 [16Mar2025 20:14:45.545] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SoySaave has reached the goal [I Wish For More Burning]
+[16Mar2025 20:18:43.066] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [SoySaave: Set own game mode to Spectator Mode]
+[16Mar2025 20:19:58.936] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [SoySaave: Set own game mode to Creative Mode]
+[16Mar2025 20:22:11.601] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [SoySaave: Set own game mode to Survival Mode]
+[16Mar2025 20:24:35.292] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: SoySaave lost connection: Disconnected
+[16Mar2025 20:24:35.292] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SoySaave left the game
+[16Mar2025 20:24:35.292] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client SoySaave
