@@ -178,3 +178,37 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [16Mar2025 19:43:47.826] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [SoySaave: Set own game mode to Survival Mode]
 [16Mar2025 19:44:15.276] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SoySaave has reached the goal [Tears of Fire]
 [16Mar2025 19:44:15.293] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SoySaave has reached the goal [Ultimate Showdown]
+[16Mar2025 19:49:16.304] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SoySaave fell from a high place
+[16Mar2025 19:49:23.719] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [SoySaave: Set own game mode to Creative Mode]
+[16Mar2025 19:49:53.703] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [SoySaave: Teleported SoySaave to 2346.500000, 201.000000, -7648.500000]
+[16Mar2025 19:50:30.006] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [SoySaave: Set own game mode to Survival Mode]
+[16Mar2025 19:56:40.896] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: SoySaave lost connection: Timed out
+[16Mar2025 19:56:40.896] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SoySaave left the game
+[16Mar2025 19:56:40.897] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client SoySaave
+[16Mar2025 19:56:52.605] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: xSebasgg14[/100.74.152.89:50763] logged in with entity id 16014 at (3652.0083823028776, 0.0, -6858.841301548892)
+[16Mar2025 19:56:52.613] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xSebasgg14 joined the game
+[16Mar2025 19:56:55.504] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of xSebasgg14 (18)
+[16Mar2025 19:56:55.505] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to xSebasgg14
+[16Mar2025 19:57:13.426] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 4e964f12-7fe5-3a4a-8b63-ee1d2c4035c8
+[16Mar2025 19:57:14.422] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 4e964f12-7fe5-3a4a-8b63-ee1d2c4035c8
+[16Mar2025 19:57:14.422] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player xSebasgg14 (4e964f12-7fe5-3a4a-8b63-ee1d2c4035c8) successfully connected to voice chat
+[16Mar2025 19:57:19.965] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: SoySaave[/100.64.20.28:63927] logged in with entity id 16268 at (2557.6848869199744, 23.0, -7146.076559757514)
+[16Mar2025 19:57:19.979] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SoySaave joined the game
+[16Mar2025 19:57:20.580] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of SoySaave (18)
+[16Mar2025 19:57:20.580] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to SoySaave
+[16Mar2025 19:57:26.495] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 6704eb53-cc09-31e0-8510-737fff44e93d
+[16Mar2025 19:57:27.513] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 6704eb53-cc09-31e0-8510-737fff44e93d
+[16Mar2025 19:57:27.514] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player SoySaave (6704eb53-cc09-31e0-8510-737fff44e93d) successfully connected to voice chat
+[16Mar2025 19:57:35.164] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <SoySaave> ola
+[16Mar2025 19:57:49.756] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xSebasgg14> ola perrita
+[16Mar2025 19:57:54.467] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <SoySaave> llamada
+[16Mar2025 19:57:57.408] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <SoySaave> ono
+[16Mar2025 19:59:09.730] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SoySaave has made the advancement [We Do a Little Trolling]
+[16Mar2025 19:59:18.082] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xSebasgg14> wtf
+[16Mar2025 20:00:08.979] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xSebasgg14 has made the advancement [Bug Stomper]
+[16Mar2025 20:00:53.660] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: xSebasgg14 lost connection: Disconnected
+[16Mar2025 20:00:53.661] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xSebasgg14 left the game
+[16Mar2025 20:00:53.661] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client xSebasgg14
+[16Mar2025 20:02:22.351] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SoySaave has made the advancement [Ice Bucket Challenge]
+[16Mar2025 20:05:27.818] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SoySaave has reached the goal [Jack and the Beanstalk]
+[16Mar2025 20:08:22.544] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SoySaave has reached the goal [I'm on Cloud Nine]

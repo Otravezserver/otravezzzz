@@ -3744,17 +3744,17 @@
     },
     "done": true
   },
-  "twilightforest:recipes/misc/ur_ghast_banner_pattern": {
-    "criteria": {
-      "has_trophy": "2025-03-16 19:44:25 +0000"
-    },
-    "done": true
-  },
   "twilightforest:progress_troll": {
     "criteria": {
       "previous_progression": "2025-03-16 19:44:15 +0000"
     },
     "done": false
+  },
+  "twilightforest:recipes/misc/ur_ghast_banner_pattern": {
+    "criteria": {
+      "has_trophy": "2025-03-16 19:44:25 +0000"
+    },
+    "done": true
   },
   "twilightforest:recipes/building_blocks/compressed_blocks/carminite_block": {
     "criteria": {
@@ -3771,6 +3771,37 @@
   "twilightforest:recipes/redstone/carminite_reactor": {
     "criteria": {
       "has_item": "2025-03-16 19:44:38 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:beanstalk": {
+    "criteria": {
+      "beans": "2025-03-16 20:02:31 +0000",
+      "use_beans": "2025-03-16 20:05:27 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:troll": {
+    "criteria": {
+      "troll": "2025-03-16 19:59:09 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:giants": {
+    "criteria": {
+      "pickaxe": "2025-03-16 20:02:31 +0000"
+    },
+    "done": false
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2025-03-16 20:02:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/enchanting_table": {
+    "criteria": {
+      "has_obsidian": "2025-03-16 20:02:22 +0000"
     },
     "done": true
   },
