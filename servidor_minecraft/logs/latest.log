@@ -130,3 +130,4 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [16Mar2025 18:58:33.792] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 6704eb53-cc09-31e0-8510-737fff44e93d
 [16Mar2025 18:58:34.790] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 6704eb53-cc09-31e0-8510-737fff44e93d
 [16Mar2025 18:58:34.793] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player SoySaave (6704eb53-cc09-31e0-8510-737fff44e93d) successfully connected to voice chat
+[16Mar2025 19:08:55.796] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SoySaave has made the advancement [Into Fire]
