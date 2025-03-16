@@ -3775,22 +3775,28 @@
     },
     "done": true
   },
-  "twilightforest:beanstalk": {
-    "criteria": {
-      "beans": "2025-03-16 20:02:31 +0000",
-      "use_beans": "2025-03-16 20:05:27 +0000"
-    },
-    "done": true
-  },
   "twilightforest:troll": {
     "criteria": {
       "troll": "2025-03-16 19:59:09 +0000"
     },
     "done": true
   },
-  "twilightforest:recipes/misc/magic_map_focus": {
+  "minecraft:story/form_obsidian": {
     "criteria": {
-      "has_berries": "2025-03-16 20:14:47 +0000"
+      "obsidian": "2025-03-16 20:02:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/enchanting_table": {
+    "criteria": {
+      "has_obsidian": "2025-03-16 20:02:22 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:beanstalk": {
+    "criteria": {
+      "beans": "2025-03-16 20:02:31 +0000",
+      "use_beans": "2025-03-16 20:05:27 +0000"
     },
     "done": true
   },
@@ -3801,18 +3807,6 @@
     },
     "done": true
   },
-  "twilightforest:recipes/decorations/berry_torch": {
-    "criteria": {
-      "has_item": "2025-03-16 20:14:47 +0000"
-    },
-    "done": true
-  },
-  "minecraft:story/form_obsidian": {
-    "criteria": {
-      "obsidian": "2025-03-16 20:02:22 +0000"
-    },
-    "done": true
-  },
   "twilightforest:progression_end": {
     "criteria": {
       "previous_progression": "2025-03-16 20:14:45 +0000",
@@ -3820,9 +3814,27 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/enchanting_table": {
+  "twilightforest:recipes/misc/magic_map_focus": {
     "criteria": {
-      "has_obsidian": "2025-03-16 20:02:22 +0000"
+      "has_berries": "2025-03-16 20:14:47 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/decorations/berry_torch": {
+    "criteria": {
+      "has_item": "2025-03-16 20:14:47 +0000"
+    },
+    "done": true
+  },
+  "man:kill": {
+    "criteria": {
+      "kill_0": "2025-03-16 22:24:42 +0000"
+    },
+    "done": true
+  },
+  "man:thetear": {
+    "criteria": {
+      "thetear_0": "2025-03-16 22:24:44 +0000"
     },
     "done": true
   },
