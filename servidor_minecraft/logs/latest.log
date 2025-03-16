@@ -1,233 +1,84 @@
-[16Mar2025 18:56:28.211] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[16Mar2025 18:56:28.215] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.14 by Ubuntu; OS Linux arch amd64 version 6.8.0-1021-azure
-[16Mar2025 18:56:28.814] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[16Mar2025 18:56:28.822] [main/INFO] [mixin-transmog/]: Mixin Transmogrifier is definitely up to no good...
-[16Mar2025 18:56:28.856] [main/INFO] [mixin-transmog/]: crimes against java were committed
-[16Mar2025 18:56:28.877] [main/INFO] [mixin-transmog/]: Original mixin transformation service successfully crobbed by mixin-transmogrifier!
-[16Mar2025 18:56:28.923] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/otravezzzz/servidor_minecraft/mods/Connector-1.0.0-beta.45+1.20.1.jar%23146%23149!/ Service=ModLauncher Env=SERVER
-[16Mar2025 18:56:29.286] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/otravezzzz/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[16Mar2025 18:56:29.287] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/otravezzzz/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[16Mar2025 18:56:29.288] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/otravezzzz/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[16Mar2025 18:56:29.289] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/otravezzzz/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[16Mar2025 18:56:29.500] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 8 dependencies adding them to mods collection
-[16Mar2025 18:56:29.991] [main/INFO] [org.sinytra.connector.locator.DependencyResolver/]: Dependency resolution found 0 candidates to load
-[16Mar2025 18:56:31.339] [main/INFO] [org.sinytra.connector.service.hacks.ModuleLayerMigrator/]: Successfully made module authlib transformable
-[16Mar2025 18:56:32.437] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[16Mar2025 18:56:32.560] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[16Mar2025 18:56:32.801] [main/WARN] [mixin/]: Reference map '' for adapter.init.mixins.json could not be read. If this is a development environment you can ignore this message
-[16Mar2025 18:56:34.282] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.2).
-[16Mar2025 18:56:40.330] [main/WARN] [mixin/]: Mixin alexscaves.mixins.json:SwampHutPieceMixin from mod alexscaves has multiple constructors, (Lnet/minecraft/world/level/levelgen/structure/pieces/StructurePieceType;IIIIIILnet/minecraft/core/Direction;)V was selected
+[16Mar2025 22:17:37.440] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[16Mar2025 22:17:37.444] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.14 by Ubuntu; OS Linux arch amd64 version 6.8.0-1021-azure
+[16Mar2025 22:17:38.039] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[16Mar2025 22:17:38.049] [main/INFO] [mixin-transmog/]: Mixin Transmogrifier is definitely up to no good...
+[16Mar2025 22:17:38.078] [main/INFO] [mixin-transmog/]: crimes against java were committed
+[16Mar2025 22:17:38.098] [main/INFO] [mixin-transmog/]: Original mixin transformation service successfully crobbed by mixin-transmogrifier!
+[16Mar2025 22:17:38.171] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/otravezzzz/servidor_minecraft/mods/Connector-1.0.0-beta.45+1.20.1.jar%23146%23149!/ Service=ModLauncher Env=SERVER
+[16Mar2025 22:17:38.586] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/otravezzzz/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[16Mar2025 22:17:38.589] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/otravezzzz/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[16Mar2025 22:17:38.590] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/otravezzzz/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[16Mar2025 22:17:38.592] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/otravezzzz/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[16Mar2025 22:17:38.813] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 8 dependencies adding them to mods collection
+[16Mar2025 22:17:39.421] [main/INFO] [org.sinytra.connector.locator.DependencyResolver/]: Dependency resolution found 0 candidates to load
+[16Mar2025 22:17:41.066] [main/INFO] [org.sinytra.connector.service.hacks.ModuleLayerMigrator/]: Successfully made module authlib transformable
+[16Mar2025 22:17:42.384] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[16Mar2025 22:17:42.555] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[16Mar2025 22:17:42.827] [main/WARN] [mixin/]: Reference map '' for adapter.init.mixins.json could not be read. If this is a development environment you can ignore this message
+[16Mar2025 22:17:44.639] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.2).
+[16Mar2025 22:17:52.019] [main/WARN] [mixin/]: Mixin alexscaves.mixins.json:SwampHutPieceMixin from mod alexscaves has multiple constructors, (Lnet/minecraft/world/level/levelgen/structure/pieces/StructurePieceType;IIIIIILnet/minecraft/core/Direction;)V was selected
 
-[16Mar2025 18:56:41.337] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[16Mar2025 18:56:41.349] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[16Mar2025 18:56:42.391] [modloading-worker-0/INFO] [Collective/]: Loading Collective version 7.94.
-[16Mar2025 18:56:42.673] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
-[16Mar2025 18:56:44.031] [main/INFO] [net.minecraft.resources.RegistryDataLoader/]: Capturing existing worldgen registries
-[16Mar2025 18:56:44.031] [main/INFO] [net.minecraft.resources.RegistryDataLoader/]: Found 0 injected RegistryDataLoader worldgen registries
-[16Mar2025 18:56:44.066] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: The object net.minecraft.sounds.SoundEvent@7d0c21 has been registered twice for the same name treechop:chop_wood.
-[16Mar2025 18:56:48.370] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.github.alexmodguy.alexscaves.server.entity.living.TremorzillaEntity from class com.github.alexmodguy.alexscaves.server.entity.living.LicowitchEntity
-[16Mar2025 18:56:48.381] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.mcreator.borninchaosv.entity.BabySpiderEntity from class net.mcreator.borninchaosv.entity.MotherSpiderEntity
-[16Mar2025 18:56:48.537] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[16Mar2025 18:56:48.620] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Compatibility version 18
-[16Mar2025 18:56:48.631] [modloading-worker-0/INFO] [studio.lunareclipse.watching.Init/]: From The Fog Loaded Successfully!
-[16Mar2025 18:56:48.649] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
-[16Mar2025 18:56:48.653] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Starting version check at https://gh.tamaized.com/TeamTwilight/twilightforest/update.json
-[16Mar2025 18:56:48.716] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loading plugins
-[16Mar2025 18:56:48.731] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loaded 0 plugin(s)
-[16Mar2025 18:56:48.731] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initializing plugins
-[16Mar2025 18:56:48.731] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initialized 0 plugin(s)
-[16Mar2025 18:56:48.757] [main/INFO] [ribbits/]: Registering Ribbit umbrella types...
-[16Mar2025 18:56:48.757] [main/INFO] [ribbits/]: Registering Ribbit professions...
-[16Mar2025 18:56:48.757] [main/INFO] [ribbits/]: Registering Ribbit instruments...
-[16Mar2025 18:56:48.759] [main/INFO] [ribbits/]: Registering Ribbit data serializers...
-[16Mar2025 18:56:48.789] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
-[16Mar2025 18:56:48.790] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
-[16Mar2025 18:56:48.790] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
-[16Mar2025 18:56:48.790] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
-[16Mar2025 18:56:48.790] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
-[16Mar2025 18:56:48.790] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
-[16Mar2025 18:56:48.790] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
-[16Mar2025 18:56:48.807] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Found status: OUTDATED Current: 4.3.1860 Target: 4.3.1893
-[16Mar2025 18:56:48.808] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Starting version check at https://update.maxhenkel.de/forge/corpse
-[16Mar2025 18:56:49.510] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Found status: OUTDATED Current: 1.20.1-1.0.19 Target: 1.20.1-1.0.20
-[16Mar2025 18:56:49.512] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Starting version check at https://update.maxhenkel.de/forge/voicechat
-[16Mar2025 18:56:49.614] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Found status: AHEAD Current: 1.20.1-2.5.28 Target: null
-[16Mar2025 18:56:49.615] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtaverns] Starting version check at https://api.modrinth.com/updates/tpehi7ww/forge_updates.json
-[16Mar2025 18:56:49.827] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtaverns] Found status: OUTDATED Current: 3.0.3.f Target: 3.0.3.f+mod
-[16Mar2025 18:56:49.827] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ad_astra] Starting version check at https://api.modrinth.com/updates/3ufwT9JF/forge_updates.json
-[16Mar2025 18:56:50.089] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ad_astra] Found status: UP_TO_DATE Current: 1.15.20 Target: null
-[16Mar2025 18:56:54.594] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[16Mar2025 18:57:00.040] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/otravezzzz/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23197!/assets/.mcassetsroot' uses unexpected schema
-[16Mar2025 18:57:00.040] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/otravezzzz/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23197!/data/.mcassetsroot' uses unexpected schema
-[16Mar2025 18:57:01.618] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
-[16Mar2025 18:57:02.632] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/poison as it's serializer returned null
-[16Mar2025 18:57:02.658] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/frosted as it's serializer returned null
-[16Mar2025 18:57:02.664] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/hunger as it's serializer returned null
-[16Mar2025 18:57:02.681] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/resistance as it's serializer returned null
-[16Mar2025 18:57:02.707] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/blindness as it's serializer returned null
-[16Mar2025 18:57:02.708] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/regeneration as it's serializer returned null
-[16Mar2025 18:57:02.709] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/slowness as it's serializer returned null
-[16Mar2025 18:57:02.712] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/fire_resistance as it's serializer returned null
-[16Mar2025 18:57:02.715] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 19 recipes
-[16Mar2025 18:57:02.716] [main/ERROR] [net.minecraft.server.ServerFunctionLibrary/]: Failed to load function watching:check
-java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
-	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
-	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
-	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
-	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
-	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
-	at net.minecraft.commands.CommandFunction.m_77984_(CommandFunction.java:63) ~[server-1.20.1-20230612.114412-srg.jar%23197!/:?]
-	at net.minecraft.server.ServerFunctionLibrary.m_214320_(ServerFunctionLibrary.java:83) ~[server-1.20.1-20230612.114412-srg.jar%23197!/:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	... 6 more
-[16Mar2025 18:57:02.862] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3063 advancements
-[16Mar2025 18:57:02.869] [main/INFO] [twilightforest/]: Loaded 9 Stalactite configs!
-[16Mar2025 18:57:02.883] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 11 curio slots
-[16Mar2025 18:57:02.888] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
-[16Mar2025 18:57:02.924] [main/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/biome] are present in data pack: minecraft:is_plains
-[16Mar2025 18:57:07.398] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[16Mar2025 18:57:07.398] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[16Mar2025 18:57:07.399] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[16Mar2025 18:57:07.399] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[16Mar2025 18:57:07.480] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[16Mar2025 18:57:07.505] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[16Mar2025 18:57:07.598] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[16Mar2025 18:57:07.598] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[16Mar2025 18:57:07.599] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[16Mar2025 18:57:07.599] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[16Mar2025 18:57:07.618] [Thread-2/INFO] [de.cadentem.cave_dweller.CaveDweller/]: Server configuration has been reloaded
-[16Mar2025 18:57:07.619] [Thread-2/INFO] [de.cadentem.cave_dweller.CaveDweller/]: Server configuration has been reloaded
-[16Mar2025 18:57:07.823] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
-[16Mar2025 18:57:08.200] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
-[16Mar2025 18:57:08.200] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[16Mar2025 18:57:14.865] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[16Mar2025 18:57:18.599] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[16Mar2025 18:57:18.625] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[16Mar2025 18:57:18.638] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[16Mar2025 18:57:18.650] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[16Mar2025 18:57:18.659] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[16Mar2025 18:57:18.678] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[16Mar2025 18:57:18.700] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[16Mar2025 18:57:18.718] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[16Mar2025 18:57:18.967] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[16Mar2025 18:57:19.367] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[16Mar2025 18:57:19.867] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 35%
-[16Mar2025 18:57:20.367] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
-[16Mar2025 18:57:20.443] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 5577 ms
-[16Mar2025 18:57:20.443] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (12.829s)! For help, type "help"
-[16Mar2025 18:57:20.477] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[16Mar2025 18:57:20.479] [Server thread/WARN] [voicechat/]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
-[16Mar2025 18:57:20.487] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice chat server started at port 24454
-[16Mar2025 18:58:19.050] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: SoySaave[/100.64.20.28:63468] logged in with entity id 7 at (2357.558025814723, 29.0, -7434.063613231389)
-[16Mar2025 18:58:19.176] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SoySaave joined the game
-[16Mar2025 18:58:19.995] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of SoySaave (18)
-[16Mar2025 18:58:19.996] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to SoySaave
-[16Mar2025 18:58:33.792] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 6704eb53-cc09-31e0-8510-737fff44e93d
-[16Mar2025 18:58:34.790] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 6704eb53-cc09-31e0-8510-737fff44e93d
-[16Mar2025 18:58:34.793] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player SoySaave (6704eb53-cc09-31e0-8510-737fff44e93d) successfully connected to voice chat
-[16Mar2025 19:08:55.796] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SoySaave has made the advancement [Into Fire]
-[16Mar2025 19:21:25.598] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: SoySaave was kicked for floating too long!
-[16Mar2025 19:21:25.649] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: SoySaave lost connection: Flying is not enabled on this server
-[16Mar2025 19:21:25.650] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SoySaave left the game
-[16Mar2025 19:21:25.654] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client SoySaave
-[16Mar2025 19:21:45.263] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: SoySaave[/100.64.20.28:63665] logged in with entity id 4189 at (2373.2497479824606, 35.248406408586696, -7677.220396214762)
-[16Mar2025 19:21:45.289] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SoySaave joined the game
-[16Mar2025 19:21:45.712] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of SoySaave (18)
-[16Mar2025 19:21:45.712] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to SoySaave
-[16Mar2025 19:21:53.353] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 6704eb53-cc09-31e0-8510-737fff44e93d
-[16Mar2025 19:21:54.355] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 6704eb53-cc09-31e0-8510-737fff44e93d
-[16Mar2025 19:21:54.355] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player SoySaave (6704eb53-cc09-31e0-8510-737fff44e93d) successfully connected to voice chat
-[16Mar2025 19:22:01.371] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SoySaave fell from a high place
-[16Mar2025 19:22:13.850] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [SoySaave: Set own game mode to Spectator Mode]
-[16Mar2025 19:22:32.906] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SoySaave was slain by Man From The Fog
-[16Mar2025 19:22:50.649] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [SoySaave: Set own game mode to Creative Mode]
-[16Mar2025 19:22:52.701] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: SoySaave moved too quickly! 2686.4017448736827,-68.96076180166337,-6589.597985461635
-[16Mar2025 19:23:19.438] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/5591, l='ServerLevel[world]', x=488.49, y=-256.00, z=-909.30] died, message: 'Villager was killed'
-[16Mar2025 19:23:38.969] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [SoySaave: Set own game mode to Spectator Mode]
-[16Mar2025 19:24:28.127] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [SoySaave: Set own game mode to Creative Mode]
-[16Mar2025 19:25:30.230] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [SoySaave: Set own game mode to Survival Mode]
-[16Mar2025 19:26:01.538] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SoySaave has made the advancement [Something Strange in Towerwood]
-[16Mar2025 19:34:59.356] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SoySaave was scalded by fiery tears
-[16Mar2025 19:35:44.966] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [SoySaave: Teleported SoySaave to 2346.500000, 201.000000, -7648.500000]
-[16Mar2025 19:38:33.086] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SoySaave was doomed to fall by Carminite Ghastling
-[16Mar2025 19:38:58.836] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [SoySaave: Teleported SoySaave to 2346.500000, 201.000000, -7647.500000]
-[16Mar2025 19:39:04.012] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [SoySaave: Set own game mode to Creative Mode]
-[16Mar2025 19:39:58.300] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [SoySaave: Set own game mode to Survival Mode]
-[16Mar2025 19:41:24.797] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SoySaave was doomed to fall
-[16Mar2025 19:41:52.008] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [SoySaave: Teleported SoySaave to 2346.500000, 201.000000, 7647.500000]
-[16Mar2025 19:41:55.492] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: SoySaave was kicked for floating too long!
-[16Mar2025 19:41:55.543] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: SoySaave lost connection: Flying is not enabled on this server
-[16Mar2025 19:41:55.544] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SoySaave left the game
-[16Mar2025 19:41:55.544] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client SoySaave
-[16Mar2025 19:42:09.702] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: SoySaave[/100.64.20.28:63811] logged in with entity id 12591 at (2346.5, 65.99024341353186, 7647.5)
-[16Mar2025 19:42:09.716] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SoySaave joined the game
-[16Mar2025 19:42:10.249] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of SoySaave (18)
-[16Mar2025 19:42:10.250] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to SoySaave
-[16Mar2025 19:42:16.408] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 6704eb53-cc09-31e0-8510-737fff44e93d
-[16Mar2025 19:42:17.409] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 6704eb53-cc09-31e0-8510-737fff44e93d
-[16Mar2025 19:42:17.409] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player SoySaave (6704eb53-cc09-31e0-8510-737fff44e93d) successfully connected to voice chat
-[16Mar2025 19:42:18.083] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: SoySaave moved too quickly! 0.0,-11.798174230684275,0.0
-[16Mar2025 19:42:28.398] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SoySaave fell from a high place
-[16Mar2025 19:42:37.305] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [SoySaave: Set own game mode to Creative Mode]
-[16Mar2025 19:43:07.373] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [SoySaave: Teleported SoySaave to 2346.500000, 201.000000, -7648.500000]
-[16Mar2025 19:43:47.826] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [SoySaave: Set own game mode to Survival Mode]
-[16Mar2025 19:44:15.276] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SoySaave has reached the goal [Tears of Fire]
-[16Mar2025 19:44:15.293] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SoySaave has reached the goal [Ultimate Showdown]
-[16Mar2025 19:49:16.304] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SoySaave fell from a high place
-[16Mar2025 19:49:23.719] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [SoySaave: Set own game mode to Creative Mode]
-[16Mar2025 19:49:53.703] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [SoySaave: Teleported SoySaave to 2346.500000, 201.000000, -7648.500000]
-[16Mar2025 19:50:30.006] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [SoySaave: Set own game mode to Survival Mode]
-[16Mar2025 19:56:40.896] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: SoySaave lost connection: Timed out
-[16Mar2025 19:56:40.896] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SoySaave left the game
-[16Mar2025 19:56:40.897] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client SoySaave
-[16Mar2025 19:56:52.605] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: xSebasgg14[/100.74.152.89:50763] logged in with entity id 16014 at (3652.0083823028776, 0.0, -6858.841301548892)
-[16Mar2025 19:56:52.613] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xSebasgg14 joined the game
-[16Mar2025 19:56:55.504] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of xSebasgg14 (18)
-[16Mar2025 19:56:55.505] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to xSebasgg14
-[16Mar2025 19:57:13.426] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 4e964f12-7fe5-3a4a-8b63-ee1d2c4035c8
-[16Mar2025 19:57:14.422] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 4e964f12-7fe5-3a4a-8b63-ee1d2c4035c8
-[16Mar2025 19:57:14.422] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player xSebasgg14 (4e964f12-7fe5-3a4a-8b63-ee1d2c4035c8) successfully connected to voice chat
-[16Mar2025 19:57:19.965] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: SoySaave[/100.64.20.28:63927] logged in with entity id 16268 at (2557.6848869199744, 23.0, -7146.076559757514)
-[16Mar2025 19:57:19.979] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SoySaave joined the game
-[16Mar2025 19:57:20.580] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of SoySaave (18)
-[16Mar2025 19:57:20.580] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to SoySaave
-[16Mar2025 19:57:26.495] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 6704eb53-cc09-31e0-8510-737fff44e93d
-[16Mar2025 19:57:27.513] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 6704eb53-cc09-31e0-8510-737fff44e93d
-[16Mar2025 19:57:27.514] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player SoySaave (6704eb53-cc09-31e0-8510-737fff44e93d) successfully connected to voice chat
-[16Mar2025 19:57:35.164] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <SoySaave> ola
-[16Mar2025 19:57:49.756] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xSebasgg14> ola perrita
-[16Mar2025 19:57:54.467] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <SoySaave> llamada
-[16Mar2025 19:57:57.408] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <SoySaave> ono
-[16Mar2025 19:59:09.730] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SoySaave has made the advancement [We Do a Little Trolling]
-[16Mar2025 19:59:18.082] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xSebasgg14> wtf
-[16Mar2025 20:00:08.979] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xSebasgg14 has made the advancement [Bug Stomper]
-[16Mar2025 20:00:53.660] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: xSebasgg14 lost connection: Disconnected
-[16Mar2025 20:00:53.661] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xSebasgg14 left the game
-[16Mar2025 20:00:53.661] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client xSebasgg14
-[16Mar2025 20:02:22.351] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SoySaave has made the advancement [Ice Bucket Challenge]
-[16Mar2025 20:05:27.818] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SoySaave has reached the goal [Jack and the Beanstalk]
-[16Mar2025 20:08:22.544] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SoySaave has reached the goal [I'm on Cloud Nine]
-[16Mar2025 20:14:24.115] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [SoySaave: Set own game mode to Creative Mode]
-[16Mar2025 20:14:36.202] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [SoySaave: Set own game mode to Survival Mode]
-[16Mar2025 20:14:45.545] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SoySaave has reached the goal [I Wish For More Burning]
-[16Mar2025 20:18:43.066] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [SoySaave: Set own game mode to Spectator Mode]
-[16Mar2025 20:19:58.936] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [SoySaave: Set own game mode to Creative Mode]
-[16Mar2025 20:22:11.601] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [SoySaave: Set own game mode to Survival Mode]
-[16Mar2025 20:24:35.292] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: SoySaave lost connection: Disconnected
-[16Mar2025 20:24:35.292] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SoySaave left the game
-[16Mar2025 20:24:35.292] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client SoySaave
-[16Mar2025 21:01:11.448] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: xSebasgg14[/100.74.152.89:61305] logged in with entity id 22818 at (3630.3407158738214, 5.0, -6670.699999988079)
-[16Mar2025 21:01:11.456] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xSebasgg14 joined the game
-[16Mar2025 21:01:14.457] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of xSebasgg14 (18)
-[16Mar2025 21:01:14.458] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to xSebasgg14
-[16Mar2025 21:01:30.990] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 4e964f12-7fe5-3a4a-8b63-ee1d2c4035c8
-[16Mar2025 21:01:31.993] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 4e964f12-7fe5-3a4a-8b63-ee1d2c4035c8
-[16Mar2025 21:01:31.994] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player xSebasgg14 (4e964f12-7fe5-3a4a-8b63-ee1d2c4035c8) successfully connected to voice chat
-[16Mar2025 21:02:17.751] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: xSebasgg14 lost connection: Disconnected
-[16Mar2025 21:02:17.751] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xSebasgg14 left the game
-[16Mar2025 21:02:17.751] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client xSebasgg14
+[16Mar2025 22:17:52.903] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[16Mar2025 22:17:52.904] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[16Mar2025 22:17:54.039] [modloading-worker-0/INFO] [Collective/]: Loading Collective version 7.94.
+[16Mar2025 22:17:54.601] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[16Mar2025 22:17:55.911] [main/INFO] [net.minecraft.resources.RegistryDataLoader/]: Capturing existing worldgen registries
+[16Mar2025 22:17:55.911] [main/INFO] [net.minecraft.resources.RegistryDataLoader/]: Found 0 injected RegistryDataLoader worldgen registries
+[16Mar2025 22:17:55.955] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: The object net.minecraft.sounds.SoundEvent@7b6cb223 has been registered twice for the same name treechop:chop_wood.
+[16Mar2025 22:18:01.466] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.github.alexmodguy.alexscaves.server.entity.living.TremorzillaEntity from class com.github.alexmodguy.alexscaves.server.entity.living.LicowitchEntity
+[16Mar2025 22:18:01.481] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.mcreator.borninchaosv.entity.BabySpiderEntity from class net.mcreator.borninchaosv.entity.MotherSpiderEntity
+[16Mar2025 22:18:01.536] [Thread-2/WARN] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Configuration file /workspaces/otravezzzz/servidor_minecraft/config/treechop-common.toml is not correct. Correcting
+[16Mar2025 22:18:01.563] [Thread-2/WARN] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Configuration file /workspaces/otravezzzz/servidor_minecraft/config/treechop-common.toml is not correct. Correcting
+[16Mar2025 22:18:01.696] [Thread-2/WARN] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Configuration file /workspaces/otravezzzz/servidor_minecraft/config/cataclysm.toml is not correct. Correcting
+[16Mar2025 22:18:01.815] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[16Mar2025 22:18:01.966] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Compatibility version 18
+[16Mar2025 22:18:01.987] [modloading-worker-0/INFO] [studio.lunareclipse.watching.Init/]: From The Fog Loaded Successfully!
+[16Mar2025 22:18:01.999] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
+[16Mar2025 22:18:01.999] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Starting version check at https://gh.tamaized.com/TeamTwilight/twilightforest/update.json
+[16Mar2025 22:18:02.172] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loading plugins
+[16Mar2025 22:18:02.186] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loaded 0 plugin(s)
+[16Mar2025 22:18:02.194] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initializing plugins
+[16Mar2025 22:18:02.194] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initialized 0 plugin(s)
+[16Mar2025 22:18:02.229] [main/INFO] [ribbits/]: Registering Ribbit umbrella types...
+[16Mar2025 22:18:02.229] [main/INFO] [ribbits/]: Registering Ribbit professions...
+[16Mar2025 22:18:02.229] [main/INFO] [ribbits/]: Registering Ribbit instruments...
+[16Mar2025 22:18:02.230] [main/INFO] [ribbits/]: Registering Ribbit data serializers...
+[16Mar2025 22:18:02.242] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Found status: OUTDATED Current: 4.3.1860 Target: 4.3.1893
+[16Mar2025 22:18:02.244] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Starting version check at https://update.maxhenkel.de/forge/corpse
+[16Mar2025 22:18:02.262] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[16Mar2025 22:18:02.263] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[16Mar2025 22:18:02.263] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
+[16Mar2025 22:18:02.263] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
+[16Mar2025 22:18:02.263] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
+[16Mar2025 22:18:02.264] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
+[16Mar2025 22:18:02.264] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
+[16Mar2025 22:18:02.749] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Found status: OUTDATED Current: 1.20.1-1.0.19 Target: 1.20.1-1.0.20
+[16Mar2025 22:18:02.752] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Starting version check at https://update.maxhenkel.de/forge/voicechat
+[16Mar2025 22:18:02.859] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Found status: AHEAD Current: 1.20.1-2.5.28 Target: null
+[16Mar2025 22:18:02.861] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtaverns] Starting version check at https://api.modrinth.com/updates/tpehi7ww/forge_updates.json
+[16Mar2025 22:18:02.966] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtaverns] Found status: OUTDATED Current: 3.0.3.f Target: 3.0.3.f+mod
+[16Mar2025 22:18:02.967] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ad_astra] Starting version check at https://api.modrinth.com/updates/3ufwT9JF/forge_updates.json
+[16Mar2025 22:18:03.002] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ad_astra] Found status: UP_TO_DATE Current: 1.15.20 Target: null
+[16Mar2025 22:18:08.910] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[16Mar2025 22:18:08.963] [main/ERROR] [net.minecraft.server.Main/FATAL]: Failed to start the minecraft server
+net.minecraft.util.DirectoryLock$LockException: /workspaces/otravezzzz/servidor_minecraft/./world/session.lock: already locked (possibly by other Minecraft instance?)
+	at net.minecraft.util.DirectoryLock$LockException.m_13648_(DirectoryLock.java:95) ~[server-1.20.1-20230612.114412-srg.jar%23197!/:?]
+	at net.minecraft.util.DirectoryLock.m_13640_(DirectoryLock.java:41) ~[server-1.20.1-20230612.114412-srg.jar%23197!/:?]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.<init>(LevelStorageSource.java:404) ~[server-1.20.1-20230612.114412-srg.jar%23197!/:?]
+	at net.minecraft.world.level.storage.LevelStorageSource.m_289864_(LevelStorageSource.java:342) ~[server-1.20.1-20230612.114412-srg.jar%23197!/:?]
+	at net.minecraft.server.Main.main(Main.java:141) ~[server-1.20.1-20230612.114412-srg.jar%23197!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
