@@ -212,3 +212,6 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [16Mar2025 20:02:22.351] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SoySaave has made the advancement [Ice Bucket Challenge]
 [16Mar2025 20:05:27.818] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SoySaave has reached the goal [Jack and the Beanstalk]
 [16Mar2025 20:08:22.544] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SoySaave has reached the goal [I'm on Cloud Nine]
+[16Mar2025 20:14:24.115] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [SoySaave: Set own game mode to Creative Mode]
+[16Mar2025 20:14:36.202] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [SoySaave: Set own game mode to Survival Mode]
+[16Mar2025 20:14:45.545] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SoySaave has reached the goal [I Wish For More Burning]
