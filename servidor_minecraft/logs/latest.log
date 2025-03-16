@@ -131,3 +131,50 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [16Mar2025 18:58:34.790] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 6704eb53-cc09-31e0-8510-737fff44e93d
 [16Mar2025 18:58:34.793] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player SoySaave (6704eb53-cc09-31e0-8510-737fff44e93d) successfully connected to voice chat
 [16Mar2025 19:08:55.796] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SoySaave has made the advancement [Into Fire]
+[16Mar2025 19:21:25.598] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: SoySaave was kicked for floating too long!
+[16Mar2025 19:21:25.649] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: SoySaave lost connection: Flying is not enabled on this server
+[16Mar2025 19:21:25.650] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SoySaave left the game
+[16Mar2025 19:21:25.654] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client SoySaave
+[16Mar2025 19:21:45.263] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: SoySaave[/100.64.20.28:63665] logged in with entity id 4189 at (2373.2497479824606, 35.248406408586696, -7677.220396214762)
+[16Mar2025 19:21:45.289] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SoySaave joined the game
+[16Mar2025 19:21:45.712] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of SoySaave (18)
+[16Mar2025 19:21:45.712] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to SoySaave
+[16Mar2025 19:21:53.353] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 6704eb53-cc09-31e0-8510-737fff44e93d
+[16Mar2025 19:21:54.355] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 6704eb53-cc09-31e0-8510-737fff44e93d
+[16Mar2025 19:21:54.355] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player SoySaave (6704eb53-cc09-31e0-8510-737fff44e93d) successfully connected to voice chat
+[16Mar2025 19:22:01.371] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SoySaave fell from a high place
+[16Mar2025 19:22:13.850] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [SoySaave: Set own game mode to Spectator Mode]
+[16Mar2025 19:22:32.906] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SoySaave was slain by Man From The Fog
+[16Mar2025 19:22:50.649] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [SoySaave: Set own game mode to Creative Mode]
+[16Mar2025 19:22:52.701] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: SoySaave moved too quickly! 2686.4017448736827,-68.96076180166337,-6589.597985461635
+[16Mar2025 19:23:19.438] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/5591, l='ServerLevel[world]', x=488.49, y=-256.00, z=-909.30] died, message: 'Villager was killed'
+[16Mar2025 19:23:38.969] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [SoySaave: Set own game mode to Spectator Mode]
+[16Mar2025 19:24:28.127] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [SoySaave: Set own game mode to Creative Mode]
+[16Mar2025 19:25:30.230] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [SoySaave: Set own game mode to Survival Mode]
+[16Mar2025 19:26:01.538] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SoySaave has made the advancement [Something Strange in Towerwood]
+[16Mar2025 19:34:59.356] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SoySaave was scalded by fiery tears
+[16Mar2025 19:35:44.966] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [SoySaave: Teleported SoySaave to 2346.500000, 201.000000, -7648.500000]
+[16Mar2025 19:38:33.086] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SoySaave was doomed to fall by Carminite Ghastling
+[16Mar2025 19:38:58.836] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [SoySaave: Teleported SoySaave to 2346.500000, 201.000000, -7647.500000]
+[16Mar2025 19:39:04.012] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [SoySaave: Set own game mode to Creative Mode]
+[16Mar2025 19:39:58.300] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [SoySaave: Set own game mode to Survival Mode]
+[16Mar2025 19:41:24.797] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SoySaave was doomed to fall
+[16Mar2025 19:41:52.008] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [SoySaave: Teleported SoySaave to 2346.500000, 201.000000, 7647.500000]
+[16Mar2025 19:41:55.492] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: SoySaave was kicked for floating too long!
+[16Mar2025 19:41:55.543] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: SoySaave lost connection: Flying is not enabled on this server
+[16Mar2025 19:41:55.544] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SoySaave left the game
+[16Mar2025 19:41:55.544] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client SoySaave
+[16Mar2025 19:42:09.702] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: SoySaave[/100.64.20.28:63811] logged in with entity id 12591 at (2346.5, 65.99024341353186, 7647.5)
+[16Mar2025 19:42:09.716] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SoySaave joined the game
+[16Mar2025 19:42:10.249] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of SoySaave (18)
+[16Mar2025 19:42:10.250] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to SoySaave
+[16Mar2025 19:42:16.408] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 6704eb53-cc09-31e0-8510-737fff44e93d
+[16Mar2025 19:42:17.409] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 6704eb53-cc09-31e0-8510-737fff44e93d
+[16Mar2025 19:42:17.409] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player SoySaave (6704eb53-cc09-31e0-8510-737fff44e93d) successfully connected to voice chat
+[16Mar2025 19:42:18.083] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: SoySaave moved too quickly! 0.0,-11.798174230684275,0.0
+[16Mar2025 19:42:28.398] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SoySaave fell from a high place
+[16Mar2025 19:42:37.305] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [SoySaave: Set own game mode to Creative Mode]
+[16Mar2025 19:43:07.373] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [SoySaave: Teleported SoySaave to 2346.500000, 201.000000, -7648.500000]
+[16Mar2025 19:43:47.826] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [SoySaave: Set own game mode to Survival Mode]
+[16Mar2025 19:44:15.276] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SoySaave has reached the goal [Tears of Fire]
+[16Mar2025 19:44:15.293] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: SoySaave has reached the goal [Ultimate Showdown]

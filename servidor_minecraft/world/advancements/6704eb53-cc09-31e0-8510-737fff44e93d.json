@@ -2848,6 +2848,7 @@
       "twilight_oak_log": "2025-03-16 05:10:01 +0000",
       "dark_log": "2025-03-16 19:13:48 +0000",
       "twilight_oak_sapling": "2025-03-16 05:01:57 +0000",
+      "canopy_pressure_plate": "2025-03-16 19:29:58 +0000",
       "canopy_log": "2025-03-16 05:22:22 +0000"
     },
     "done": false
@@ -3435,9 +3436,10 @@
   "twilightforest:progress_merge": {
     "criteria": {
       "hydra": "2025-03-16 06:46:33 +0000",
-      "snow_queen": "2025-03-16 07:19:40 +0000"
+      "snow_queen": "2025-03-16 07:19:40 +0000",
+      "ur_ghast": "2025-03-16 19:44:15 +0000"
     },
-    "done": false
+    "done": true
   },
   "twilightforest:recipes/misc/hydra_banner_pattern": {
     "criteria": {
@@ -3611,13 +3613,62 @@
   },
   "twilightforest:progress_ur_ghast": {
     "criteria": {
-      "previous_progression": "2025-03-16 07:38:08 +0000"
+      "previous_progression": "2025-03-16 07:38:08 +0000",
+      "ghast": "2025-03-16 19:44:15 +0000"
     },
-    "done": false
+    "done": true
   },
   "twilightforest:recipes/misc/knight_phantom_banner_pattern": {
     "criteria": {
       "has_trophy": "2025-03-16 07:38:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/black_dye": {
+    "criteria": {
+      "has_ink_sac": "2025-03-16 19:06:04 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/wood/smoked_cracked_towerwood": {
+    "criteria": {
+      "has_item": "2025-03-16 19:07:01 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/wood/mossy_towerwood": {
+    "criteria": {
+      "has_item": "2025-03-16 19:07:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2025-03-16 19:08:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/blaze_powder": {
+    "criteria": {
+      "has_blaze_rod": "2025-03-16 19:08:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/brewing_stand": {
+    "criteria": {
+      "has_blaze_rod": "2025-03-16 19:08:55 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/wood/dark_wood": {
+    "criteria": {
+      "has_item": "2025-03-16 19:13:48 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/wood/dark_planks": {
+    "criteria": {
+      "has_item": "2025-03-16 19:13:48 +0000"
     },
     "done": true
   },
@@ -3630,12 +3681,6 @@
   "twilightforest:recipes/building_blocks/wood/dark_stairs": {
     "criteria": {
       "has_item": "2025-03-16 19:14:25 +0000"
-    },
-    "done": true
-  },
-  "minecraft:nether/obtain_blaze_rod": {
-    "criteria": {
-      "blaze_rod": "2025-03-16 19:08:55 +0000"
     },
     "done": true
   },
@@ -3669,21 +3714,9 @@
     },
     "done": true
   },
-  "twilightforest:recipes/building_blocks/wood/smoked_cracked_towerwood": {
-    "criteria": {
-      "has_item": "2025-03-16 19:07:01 +0000"
-    },
-    "done": true
-  },
   "twilightforest:recipes/decorations/wood/dark_chest": {
     "criteria": {
       "has_item": "2025-03-16 19:14:25 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/black_dye": {
-    "criteria": {
-      "has_ink_sac": "2025-03-16 19:06:04 +0000"
     },
     "done": true
   },
@@ -3693,39 +3726,51 @@
     },
     "done": true
   },
-  "twilightforest:recipes/building_blocks/wood/dark_wood": {
-    "criteria": {
-      "has_item": "2025-03-16 19:13:48 +0000"
-    },
-    "done": true
-  },
   "twilightforest:recipes/redstone/wood/dark_door": {
     "criteria": {
       "has_item": "2025-03-16 19:14:25 +0000"
     },
     "done": true
   },
-  "twilightforest:recipes/building_blocks/wood/dark_planks": {
+  "twilightforest:ghast_trap": {
     "criteria": {
-      "has_item": "2025-03-16 19:13:48 +0000"
+      "activate_ghast_trap": "2025-03-16 19:26:01 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/brewing/blaze_powder": {
+  "minecraft:recipes/misc/nether_brick": {
     "criteria": {
-      "has_blaze_rod": "2025-03-16 19:08:55 +0000"
+      "has_netherrack": "2025-03-16 19:34:05 +0000"
     },
     "done": true
   },
-  "twilightforest:recipes/building_blocks/wood/mossy_towerwood": {
+  "twilightforest:recipes/misc/ur_ghast_banner_pattern": {
     "criteria": {
-      "has_item": "2025-03-16 19:07:01 +0000"
+      "has_trophy": "2025-03-16 19:44:25 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/brewing/brewing_stand": {
+  "twilightforest:progress_troll": {
     "criteria": {
-      "has_blaze_rod": "2025-03-16 19:08:55 +0000"
+      "previous_progression": "2025-03-16 19:44:15 +0000"
+    },
+    "done": false
+  },
+  "twilightforest:recipes/building_blocks/compressed_blocks/carminite_block": {
+    "criteria": {
+      "has_item": "2025-03-16 19:44:38 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/redstone/carminite_builder": {
+    "criteria": {
+      "has_item": "2025-03-16 19:44:38 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/redstone/carminite_reactor": {
+    "criteria": {
+      "has_item": "2025-03-16 19:44:38 +0000"
     },
     "done": true
   },
